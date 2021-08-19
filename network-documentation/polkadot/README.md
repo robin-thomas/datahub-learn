@@ -24,5 +24,3 @@ Be sure to check out the[ **official Polkadot documentation**](https://wiki.polk
 
 {% page-ref page="enriched-apis/" %}
 
-
-

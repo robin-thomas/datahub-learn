@@ -12,29 +12,29 @@ Once you are ready, get started by [**setting up an account on DataHub**](https:
 
 ![](../../.gitbook/assets/avax1_.png)
 
-Verify each tutorial as you complete them and make sure to click on "Submit to earn" when you are done with the five tutorials to access the completion form. 
+Verify each tutorial as you complete them and make sure to click on "Submit to earn" when you are done with the five tutorials to access the completion form.
 
 ![](../../.gitbook/assets/avax2_.png)
 
-[**Learn more about DataHub**](https://learn.figment.io/guides/datahub-products)**.** 
+[**Learn more about DataHub**](https://learn.figment.io/guides/datahub-products)**.**
 
-\*\*\*\*[**Make sure to read our Terms of Use before starting**](https://learn.datahub.figment.io/terms-of-use)**.** 
+\*\*\*\*[**Make sure to read our Terms of Use before starting**](https://learn.datahub.figment.io/terms-of-use)**.**
 
 ## \*\*\*\*![](../../.gitbook/assets/avalanche_token_round-300x300.png) **Avalanche** Pathway Tutorials
 
-### ![](../../.gitbook/assets/vhhp1wl4_400x400-1-.jpg) [Get started by signing up to DataHub](https://datahub.figment.io/sign_up?service=avalanche)! 
+### ![](../../.gitbook/assets/vhhp1wl4_400x400-1-.jpg) [Get started by signing up to DataHub](https://datahub.figment.io/sign_up?service=avalanche)!
 
 {% hint style="warning" %}
-Make sure to use a browser that does not hide your IP address, we will deny submissions with hidden IPs.   
-  
-We also do not accept "Google phone numbers" or any online SMS number. 
+Make sure to use a browser that does not hide your IP address, we will deny submissions with hidden IPs.
+
+We also do not accept "Google phone numbers" or any online SMS number.
 {% endhint %}
 
 ### 💡 1. Connect to an Avalanche node using DataHub
 
 {% page-ref page="tutorials/pathway/1.-connect-to-avalanche-node-with-datahub.md" %}
 
-###  💡 2. Create your first Avalanche account
+### 💡 2. Create your first Avalanche account
 
 {% page-ref page="tutorials/pathway/2.-create-your-first-avalanche-account.md" %}
 
@@ -42,21 +42,21 @@ We also do not accept "Google phone numbers" or any online SMS number.
 
 {% page-ref page="tutorials/pathway/3.-query-the-avalanche-network.md" %}
 
-### 💡 4. Create your first transaction 
+### 💡 4. Create your first transaction
 
 {% page-ref page="tutorials/pathway/4.-create-your-first-transaction.md" %}
 
-### 💡 5. Create your first cross-chain token transfers 
+### 💡 5. Create your first cross-chain token transfers
 
 {% page-ref page="tutorials/pathway/5.-cross-chain-token-transfers.md" %}
 
-##  ![](../../.gitbook/assets/avalanche_token_round-300x300.png) Extra Avalanche Pathway Challenges <a id="extra-celo-pathway-challenges"></a>
+## ![](../../.gitbook/assets/avalanche_token_round-300x300.png) Extra Avalanche Pathway Challenges <a id="extra-celo-pathway-challenges"></a>
 
 Avalanche is providing Bonus Activity Rewards for additional activities following the completion of the Avalanche Pathway tutorials. Complete any of these challenges and earn more AVAX tokens!
 
 Simply fill [**this form**](https://forms.gle/nVNBbSEghuH9aUzx5) and include direct links for our reference. Bonus Activity Rewards will be given out at the discretion of the reviewer. Please provide any context you would like us to consider to maximize your Bonus Activity Reward.
 
-### ​ ![](../../.gitbook/assets/download-6-1-%20%281%29.png) Twitter \($5 in AVAX each\) <a id="twitter-usd5-in-cusd-each"></a>
+### ​ ![](../../.gitbook/assets/download-6-1-%20%281%29%20%282%29.png) Twitter \($5 in AVAX each\) <a id="twitter-usd5-in-cusd-each"></a>
 
 1. Post a lesson learned about the Avalanche platform, tools, community, etc.
 2. Post a screenshot of what you just built with Avalanche

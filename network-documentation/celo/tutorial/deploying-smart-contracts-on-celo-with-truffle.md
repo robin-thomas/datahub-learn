@@ -71,12 +71,12 @@ contract Migrations {
 
   modifier restricted() {
     require(
-	  msg.sender == owner,"This function is restricted to the contract's owner");
-	  _;
+      msg.sender == owner,"This function is restricted to the contract's owner");
+      _;
   }
 
   function setCompleted(uint completed) public restricted {
-	last_completed_migration = completed;
+    last_completed_migration = completed;
   }
 }
 ```
@@ -155,16 +155,16 @@ require('dotenv').config();
 
 const main =  async  ()  =>  {
     const web3 =  new  Web3(process.env.REST_URL);
-	const client = ContractKit.newKitFromWeb3(web3);
+    const client = ContractKit.newKitFromWeb3(web3);
 
-	const account = web3.eth.accounts.create();
+    const account = web3.eth.accounts.create();
 
-	console.log('address: ', account.address);
+    console.log('address: ', account.address);
     console.log('privateKey: ', account.privateKey);
 };
 
 main().catch((err)  =>  {
-	console.error(err);
+    console.error(err);
 });
 ```
 

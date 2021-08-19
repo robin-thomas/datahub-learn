@@ -4,7 +4,7 @@ description: Learn how to create and interact a non-fungible token contract on T
 
 # Creating NFTs
 
-\*\*\*\*[**The original tutorial can be found in the Tezos documentation here**](https://github.com/tqtezos/nft-tutorial). 
+\*\*\*\*[**The original tutorial can be found in the Tezos documentation here**](https://github.com/tqtezos/nft-tutorial).
 
 ## Tutorial: Non-Fungible Tokens on Tezos Using FA2
 
@@ -148,8 +148,8 @@ Example:
 ```javascript
 $ tznft show-meta --nft KT1XP3RE6S9t44fKR9Uo5rAfqHvHXu9Cy7fh --signer bob --tokens 0 1
 
-token_id: 0	symbol: T1	name: My Token One	extras: { }
-token_id: 1	symbol: T2	name: My Token Two	extras: { }
+token_id: 0    symbol: T1    name: My Token One    extras: { }
+token_id: 1    symbol: T2    name: My Token Two    extras: { }
 ```
 
 ### **Inspect Token Balances**
@@ -172,8 +172,8 @@ $ tznft show-balance --nft KT1XP3RE6S9t44fKR9Uo5rAfqHvHXu9Cy7fh --signer bob --o
 
 querying NFT contract KT1XP3RE6S9t44fKR9Uo5rAfqHvHXu9Cy7fh using balance inspector KT1Pezr7JjgmrPcPhpkbkH1ytG7saMZ34sfd
 requested NFT balances:
-owner: tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU	token: 0	balance: 1
-owner: tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU	token: 1	balance: 1
+owner: tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU    token: 0    balance: 1
+owner: tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU    token: 1    balance: 1
 ```
 
 Example 2, check `alice` balances:
@@ -183,8 +183,8 @@ $ tznft show-balance --nft KT1XP3RE6S9t44fKR9Uo5rAfqHvHXu9Cy7fh --signer bob --o
 
 querying NFT contract KT1XP3RE6S9t44fKR9Uo5rAfqHvHXu9Cy7fh using balance inspector KT1Pezr7JjgmrPcPhpkbkH1ytG7saMZ34sfd
 requested NFT balances:
-owner: tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb	token: 0	balance: 0
-owner: tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb	token: 1	balance: 0
+owner: tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb    token: 0    balance: 0
+owner: tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb    token: 1    balance: 0
 ```
 
 ### Tokens With External Metadata
@@ -209,7 +209,7 @@ originated NFT collection KT1SgzbcfTtdHRV8qHNG3hd3w1x23oiC31B8
 ```javascript
 $ tznft show-meta -s bob --nft KT1SgzbcfTtdHRV8qHNG3hd3w1x23oiC31B8 --tokens 0
 
-token_id: 0	symbol: TZT	name: Tezos Token	extras: { ipfs_cid=QmRyTc9KbD7ZSkmEf4e7fk6A44RPciW5pM4iyqRGrhbyvj }
+token_id: 0    symbol: TZT    name: Tezos Token    extras: { ipfs_cid=QmRyTc9KbD7ZSkmEf4e7fk6A44RPciW5pM4iyqRGrhbyvj }
 ```
 
 1. You can inspect the file on the web by opening a URL `https://ipfs.io/ipfs/<ipfs_cid>`. For our example, the URL would be [https://ipfs.io/ipfs/QmRyTc9KbD7ZSkmEf4e7fk6A44RPciW5pM4iyqRGrhbyvj](https://ipfs.io/ipfs/QmRyTc9KbD7ZSkmEf4e7fk6A44RPciW5pM4iyqRGrhbyvj)
@@ -242,15 +242,15 @@ $ tznft show-balance --nft KT1XP3RE6S9t44fKR9Uo5rAfqHvHXu9Cy7fh --signer bob --o
 
 querying NFT contract KT1XP3RE6S9t44fKR9Uo5rAfqHvHXu9Cy7fh using balance inspector KT1Pezr7JjgmrPcPhpkbkH1ytG7saMZ34sfd
 requested NFT balances:
-owner: tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU	token: 0	balance: 0
-owner: tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU	token: 1	balance: 0
+owner: tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU    token: 0    balance: 0
+owner: tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU    token: 1    balance: 0
 
 $ tznft show-balance --nft KT1XP3RE6S9t44fKR9Uo5rAfqHvHXu9Cy7fh --signer bob --owner alice --tokens 0 1
 
 querying NFT contract KT1XP3RE6S9t44fKR9Uo5rAfqHvHXu9Cy7fh using balance inspector KT1Pezr7JjgmrPcPhpkbkH1ytG7saMZ34sfd
 requested NFT balances:
-owner: tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb	token: 0	balance: 1
-owner: tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb	token: 1	balance: 1
+owner: tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb    token: 0    balance: 1
+owner: tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb    token: 1    balance: 1
 ```
 
 ### Operator Transfer
@@ -306,15 +306,15 @@ $ tznft show-balance --nft KT1XP3RE6S9t44fKR9Uo5rAfqHvHXu9Cy7fh --signer bob --o
 
 querying NFT contract KT1XP3RE6S9t44fKR9Uo5rAfqHvHXu9Cy7fh using balance inspector KT1Pezr7JjgmrPcPhpkbkH1ytG7saMZ34sfd
 requested NFT balances:
-owner: tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU	token: 0	balance: 0
-owner: tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU	token: 1	balance: 1
+owner: tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU    token: 0    balance: 0
+owner: tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU    token: 1    balance: 1
 
 $ tznft show-balance --nft KT1XP3RE6S9t44fKR9Uo5rAfqHvHXu9Cy7fh --signer bob --owner alice --tokens 0 1
 
 querying NFT contract KT1XP3RE6S9t44fKR9Uo5rAfqHvHXu9Cy7fh using balance inspector KT1Pezr7JjgmrPcPhpkbkH1ytG7saMZ34sfd
 requested NFT balances:
-owner: tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb	token: 0	balance: 1
-owner: tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb	token: 1	balance: 0
+owner: tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb    token: 0    balance: 1
+owner: tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb    token: 1    balance: 0
 ```
 
 Token `1` now belongs to `bob`.
@@ -390,12 +390,12 @@ _Note: Although `testnet` configuration already has two bootstrap aliases `bob` 
 ```javascript
 $ tznft show-alias bob
 
-bob	tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU	edsk3RFgDiCt7tWB2oe96w1eRw72iYiiqZPLu9nnEY23MYRp2d8Kkx
+bob    tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU    edsk3RFgDiCt7tWB2oe96w1eRw72iYiiqZPLu9nnEY23MYRp2d8Kkx
 
 $ tznft show-alias
 
-bob	tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU	edsk3RFgDiCt7tWB2oe96w1eRw72iYiiqZPLu9nnEY23MYRp2d8Kkx
-alice	tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb	edsk3QoqBuvdamxouPhin7swCvkQNgq4jP5KZPbwWNnwdZpSpJiEbq
+bob    tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU    edsk3RFgDiCt7tWB2oe96w1eRw72iYiiqZPLu9nnEY23MYRp2d8Kkx
+alice    tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb    edsk3QoqBuvdamxouPhin7swCvkQNgq4jP5KZPbwWNnwdZpSpJiEbq
 ```
 
 * `add-alias <alias> <private_key>` add alias using its private key. Aliases that configured with the private key can be used to sign operations that originate or call smart contracts on chain. `tznft` commands that require Tezos operation signing have `--signer` option.
@@ -409,7 +409,7 @@ alias jane has been added
 
 $ tznft show-alias jane
 
-jane	tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb	edsk3QoqBuvdamxouPhin7swCvkQNgq4jP5KZPbwWNnwdZpSpJiEbq
+jane    tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb    edsk3QoqBuvdamxouPhin7swCvkQNgq4jP5KZPbwWNnwdZpSpJiEbq
 ```
 
 * `add-alias <alias> <address>` add alias using Tezos address \(public key hash\). Such aliases do not have associated private key and cannot be used to sign Tezos operations.
@@ -423,7 +423,7 @@ alias michael has been added
 
 $ tznft show-alias michael
 
-michael	tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb
+michael    tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb
 ```
 
 * `add-alias-faucet <alias> <faucet_json_file_path>` add alias with private key from the faucet file \(see [Tezos Faucet](https://faucet.tzalpha.net/)\). This command will not work on `sandbox` network. An alias configured from the faucet has the private key and can be used to sign Tezos operations.
@@ -439,7 +439,7 @@ alias john has been added
 
 $ tznft show-alias john
 
-john	tz1NfTBQM9QpZpEY6GSvdw3XBpyEjLLGhcEU	edskRzaCrGEDr1Ras1U55U73dXoLfQQJyuwE95rSkqbydxUS4oS3fGmWywbaVcYw7DLH34zedoJzwMQxzAXQdixi5QzYC5pGJ6
+john    tz1NfTBQM9QpZpEY6GSvdw3XBpyEjLLGhcEU    edskRzaCrGEDr1Ras1U55U73dXoLfQQJyuwE95rSkqbydxUS4oS3fGmWywbaVcYw7DLH34zedoJzwMQxzAXQdixi5QzYC5pGJ6
 ```
 
 * `remove-alias <alias>` remove alias from the selected network configuration.

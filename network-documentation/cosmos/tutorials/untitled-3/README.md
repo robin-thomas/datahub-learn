@@ -4,7 +4,7 @@ description: Learn how to build a nameservice application with the Cosmos SDK
 
 # Build a nameservice application
 
-[**The original tutorial can be found in the Cosmos SDK documentation here**](https://tutorials.cosmos.network/nameservice/tutorial/00-intro.html#). 
+[**The original tutorial can be found in the Cosmos SDK documentation here**](https://tutorials.cosmos.network/nameservice/tutorial/00-intro.html#).
 
 ## Getting Started <a id="getting-started"></a>
 

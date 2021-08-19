@@ -152,7 +152,7 @@ The Ethereum Virtual Machine. A runtime environment used by smart contracts on s
 
 **Fiat**
 
-Fiat money is a currency that lacks intrinsic value and is established as a legal tender by government regulation. 
+Fiat money is a currency that lacks intrinsic value and is established as a legal tender by government regulation.
 
 **Fork**
 

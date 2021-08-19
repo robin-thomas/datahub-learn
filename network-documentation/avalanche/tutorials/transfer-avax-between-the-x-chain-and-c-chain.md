@@ -4,7 +4,7 @@ description: Learn how to transfer AVAX between chains
 
 # Transfer AVAX Between the X-Chain and C-Chain
 
-\*\*\*\*[**The original tutorial can be found in the AVA Labs documentation here**](https://docs.avax.network/build/tutorials/platform/transfer-avax-between-x-chain-and-c-chain). 
+\*\*\*\*[**The original tutorial can be found in the AVA Labs documentation here**](https://docs.avax.network/build/tutorials/platform/transfer-avax-between-x-chain-and-c-chain).
 
 ## Introduction
 
@@ -32,13 +32,13 @@ Select **Access Wallet** to enter your wallet. To connect the wallet to a networ
 
 You can access your wallet using the private key, mnemonic key phrase, keystore file or Ledger Nano S. C-Chain transfers via Ledger are not supported yet.
 
-![](../../../.gitbook/assets/wallet-x2p-02-access.png)
+![](../../../.gitbook/assets/wallet-x2p-02-access%20%282%29.png)
 
 After a successful login you will see your balance, assets portfolio and various other information.
 
 ### Step 3 - Go to the Cross Chain Tab
 
-![](../../../.gitbook/assets/wallet-x2p-03-earn-1-%20%281%29.png)
+![](../../../.gitbook/assets/wallet-x2p-03-earn-1-.png)
 
 Functionality for transferring tokens between chains is on the **Cross Chain** tab.
 
@@ -72,7 +72,7 @@ Swap source and destination chain, by selecting them from the **Source** and **D
 
 ## Transferring from the X-Chain to C-Chain with API Calls
 
-If you're building an application on the Avalanche network, you may want to do the transfer programmatically as part of some broader functionality. You can do that by calling the appropriate APIs on an AvalancheGo node. The rest of the tutorial assumes you have access to an AvalancheGo node, AVAX tokens on the X-Chain, and user credentials [created]() and stored in the node's keystore.
+If you're building an application on the Avalanche network, you may want to do the transfer programmatically as part of some broader functionality. You can do that by calling the appropriate APIs on an AvalancheGo node. The rest of the tutorial assumes you have access to an AvalancheGo node, AVAX tokens on the X-Chain, and user credentials [created](transfer-avax-between-the-x-chain-and-c-chain.md) and stored in the node's keystore.
 
 All the example API calls below assume the node is running locally \(that is, listening on `127.0.0.1`\). The node can be connected to the main network, a test network or a local network. In each case, the API calls and responses should be the same, except for the address formats. The node need not be local; you can make calls to a node hosted elsewhere.
 
@@ -147,7 +147,7 @@ Now we have everything we need to transfer the tokens.
 
 ### Transfer from the X-Chain to C-Chain
 
-Use the address corresponding to the private key you exported and switch to using the C- prefix in the [`avm.exportAVAX`]() call:
+Use the address corresponding to the private key you exported and switch to using the C- prefix in the [`avm.exportAVAX`](transfer-avax-between-the-x-chain-and-c-chain.md) call:
 
 ```cpp
 curl -X POST --data '{  
@@ -230,7 +230,7 @@ The response should look like this:
 }
 ```
 
-To finish the transfer, call [`avm.importAVAX`]().
+To finish the transfer, call [`avm.importAVAX`](transfer-avax-between-the-x-chain-and-c-chain.md).
 
 ```cpp
 curl -X POST --data '{  
