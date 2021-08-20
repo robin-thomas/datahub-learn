@@ -1,8 +1,6 @@
-# Create Your First Substrate Chain
-
 [The original tutorial can be found in Substrate's official documentation here. ](https://substrate.dev/docs/en/tutorials/create-your-first-substrate-chain/)
 
-## Introduction <a id="__docusaurus"></a>
+# Introduction
 
 In this tutorial, you will learn how to compile and launch the Substrate Developer Hub Node Template and interact with it using the Substrate Developer Hub Front-End Template.
 

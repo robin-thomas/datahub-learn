@@ -16,9 +16,9 @@ Once you are ready, get started by [**setting up an account on DataHub**](https:
 
 [**Learn more about DataHub**](https://learn.figment.io/guides/datahub-products)**.** 
 
-\*\*\*\*[**Make sure to read our Terms of Use before starting**](https://learn.datahub.figment.io/terms-of-use)**.** 
+[**Make sure to read our Terms of Use before starting**](https://learn.datahub.figment.io/terms-of-use)**.** 
 
-## \*\*\*\*![](../../.gitbook/assets/37552875%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png) **Celo** Pathway Tutorials
+## ![](../../.gitbook/assets/37552875%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%281%29.png) **Celo** Pathway Tutorials
 
 ### ![](../../.gitbook/assets/vhhp1wl4_400x400-1-.jpg) [Get started by signing up to DataHub!](https://datahub.figment.io/sign_up?service=celo) 
 

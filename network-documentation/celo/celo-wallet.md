@@ -1,10 +1,4 @@
----
-description: Learn how to setup your CELO wallet and store your tokens
----
-
-# 💼 CELO Wallet
-
-## **CELO Wallet Setup**
+# **CELO Wallet Setup**
 
 The Celo Wallet provides an easy way to send, receive, and save Celo Assets. This section describes what is going on under the hood during various aspects of the wallet experience.
 

@@ -1,10 +1,4 @@
----
-description: Learn how to pull information from the Terra Blockchain using DataHub
----
-
-# Querying the Terra blockchain
-
-## Introduction 
+# Introduction 
 
 Often times you will need to pull information about the blockchain and its state such as: 
 

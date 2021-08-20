@@ -1,10 +1,4 @@
----
-description: Learn how to interact with Celo using DataHub
----
-
-# 💰 Celo
-
-## Welcome to the Celo documentation!
+# Welcome to the Celo documentation!
 
 In this section, you will be able to learn about what makes Celo special and how you can leverage available tools to build amazing products! 
 

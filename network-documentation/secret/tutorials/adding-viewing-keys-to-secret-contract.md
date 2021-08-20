@@ -1,6 +1,4 @@
-# Tutorial: Adding viewing keys to a secret contract
-
-## Introduction
+# Introduction
 
 In this tutorial we will demonstrate how to add Viewing Key code to the reminder secret contract that we built in the [Developing your first secret contract](https://learn.figment.io/network-documentation/secret/tutorials/creating-a-secret-contract-from-scratch) tutorial. In that tutorial we implemented code to store and read a private reminder for a user. As implemented, each read of the reminder costs gas, which is not ideal. We will show here how a *viewing key* can be used to implement the same functionality in way that does not require the user to send a gas payment every time they want to read the reminder. 
 
@@ -8,13 +6,13 @@ A viewing key is simply a randomly generated password defined for an address tha
 
 The viewing key code implemented in this tutorial is based on the implementation used in the SecretSCRT contract: https://github.com/enigmampc/secretSCRT.
 
-## Pre-requisites
+# Prerequisites
 
 If you have not completed the [Developing your first secret contract tutorial](https://learn.figment.io/network-documentation/secret/tutorials/creating-a-secret-contract-from-scratch), do that first. That tutorial also assumes you have completed the [Secret Pathway Tutorials 1-5](https://learn.figment.io/network-documentation/secret/secret-pathway#secret-pathway-tutorials). This tutorial builds on the contract that was used in that tutorial, the full code for which you can find on GitHub at this link: [https://github.com/darwinzer0/secret-contract-tutorials/tree/main/tutorial1/code](https://github.com/darwinzer0/secret-contract-tutorials/tree/main/tutorial1/code).
 
 If you get stuck at any point, the completed code for this tutorial can also be found on GitHub here: [https://github.com/darwinzer0/secret-contract-tutorials/tree/main/tutorial2/code](https://github.com/darwinzer0/secret-contract-tutorials/tree/main/tutorial2/code).
 
-## Step 1 - preparing the build environment
+# Step 1 - Preparing the build environment
 
 To begin you will need to add the following packages to the `Cargo.toml` file:
 
@@ -26,11 +24,11 @@ hex = "0.4.2"
 sha2 = { version = "0.9.1", default-features = false }
 ```
 
-## Step 2 - adding viewing key utility
+# Step 2 - Adding viewing key utility
 
 First we will import two source files that define the main ViewingKey struct as well as a couple of utility functions. This code is pulled directly from the [Secret SCRT contract](https://github.com/enigmampc/secretSCRT). Both of these files can be found on GitHub at the following link: [https://github.com/darwinzer0/secret-contract-tutorials/tree/main/tutorial2](https://github.com/darwinzer0/secret-contract-tutorials/tree/main/tutorial2). With slight modification you could easily combine these into one file if you wish.
 
-### Add `utils.rs`
+## Add `utils.rs`
 
 ```rust
 use crate::viewing_key::VIEWING_KEY_SIZE;
@@ -52,7 +50,7 @@ pub fn create_hashed_password(s1: &str) -> [u8; VIEWING_KEY_SIZE] {
 
 This utility crate defines two helper functions: `ct_slice_compare`, which will be used to test if two hashed passwords are the same; and `create_hashed_password`, which creates a hashed password from a random seed using the SHA-256 hash algorithm.
 
-### Add `viewing_key.rs`
+## Add `viewing_key.rs`
 
 ```rust
 use std::fmt;
@@ -116,7 +114,7 @@ This file defines the struct for our viewing key, `ViewingKey`. The `new` method
 
 Once a viewing key has been created, the method `check_viewing_key` can be used to test whether a given hashed password matches the viewing key.
 
-### Integrating into your contract
+# Integrating into your contract
 
 After you have added `viewing_key.rs` and `utils.rs` to the `src/` directory, in `src/lib.rs` you will need to add them as modules in the project. To do that add these lines near the top:
 
@@ -164,7 +162,7 @@ Finally, in the `init` function in `contract.rs` update the initialization of th
     };
 ```
 
-## Step 3 - generating a viewing key
+## Step 3 - Generating a viewing key
 
 Next we need to add a Handle function to generate a viewing key for a user. In `msg.rs` we add the following to `HandleMsg`:
 
@@ -218,9 +216,9 @@ pub fn try_generate_viewing_key<S: Storage, A: Api, Q: Querier>(
 }
 ```
 
-## Step 4 - creating authenticated queries
+## Step 4 - Creating authenticated queries
 
-### Updating msg.rs
+## Updating msg.rs
 
 Now we can update our Query messages to include authenticated queries. For example, let's say we want to implement Read as a query instead of a execute function, so we don't need to pay gas fees with every read. In `QueryMsg` in `msg.rs` add:
 
@@ -256,7 +254,7 @@ Then we define the `Read` response in the `QueryAnswer` enum:
     },
 ```
 
-### Updating contract.rs
+## Updating contract.rs
 
 Now we turn to `contract.rs` to update our `query` function. It is easiest to use a helper function to deal with all of the authenticated queries. Add the following line at the bottom of the `match msg` block in `query`:
 
@@ -330,7 +328,7 @@ fn query_read<S: Storage, A: Api, Q: Querier>(
 
 Now you can read the reminder as many times as you want without paying any SCRT!
 
-## Compiling your contract
+# Compiling your contract
 
 As with any secret contract before uploading your contract to the network, you should compile it to wasm and then use the secret contract optimizer to reduce its size using the following commands. 
 
@@ -344,10 +342,8 @@ docker run --rm -v "$(pwd)":/contract \
 
 Refer to the [Write & deploy your first secret contract](https://learn.figment.io/network-documentation/secret/tutorials/intro-pathway-secret-basics/5.-writing-and-deploying-your-first-secret-contract) tutorial for more information on compiling and using a javascript client to execute the contract.
 
-## About the author
+# About the author
 
 This tutorial was written by Ben Adams, a senior lecturer in computer science and software engineering at the University of Canterbury in New Zealand.
 
-<div class="cc">
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-</div>
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) ![cc](https://i.creativecommons.org/l/by/4.0/88x31.png)

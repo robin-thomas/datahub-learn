@@ -1,10 +1,4 @@
----
-description: How to create fungible tokens on Celo using Remix-IDE
----
-
-# How to mint your own fungible Celo Token
-
-## Prerequisite:
+# Prerequisite:
 
 1. Celo environment setup for Remix, tutorial for which can be found [here](https://github.com/figment-networks/datahub-learn/tree/297924b808c15ce2bb97c8963ea6d7640a4d3cf4/network-documentation/celo/tutorial/network-documentation/celo/tutorial/celo-for-remix.md)
 2. Basic knowledge of [Solidity](https://https://solidity-by-example.org/) and the [Remix IDE](https://remix.ethereum.org)
@@ -218,9 +212,8 @@ Now we are able to see our token balance!
 
 After adding the token address to our wallet, simply click on the `Send` button and input the address of a recipient. Tokens will be transferred after signing the transaction and paying the `transaction fee`.
 
-## Conclusion
+# Conclusion
 
 This was a very interesting tutorial. In this tutorial, we learned: 1. Some different use cases of Fungible tokens 2. There are different types of tokens with different standards 3. How to deploy a custom Fungible token on the Celo blockchain 4. How to send tokens over Celo!
 
 We cannot wait to see what you create!
-

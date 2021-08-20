@@ -1,8 +1,6 @@
-# Add A Pallet To Your Runtime
-
 [The original tutorial can be found in Substrate's official documentation here. ](https://substrate.dev/docs/en/tutorials/add-a-pallet/)
 
-## Introduction <a id="__docusaurus"></a>
+## Introduction
 
 The [Substrate Developer Hub Node Template](https://github.com/substrate-developer-hub/substrate-node-template) provides a minimal working runtime which you can use to quickly get started building your own custom blockchain. The Node Template includes [a number of components](https://substrate.dev/docs/en/index#architecture), including a [runtime](https://substrate.dev/docs/en/knowledgebase/getting-started/glossary#runtime) that is constructed using the [FRAME](https://substrate.dev/docs/en/knowledgebase/runtime/frame) runtime development framework. However, in order to remain minimal, it does not include most of the modules \(called "pallets"\) from Substrate's set of core FRAME pallets.
 

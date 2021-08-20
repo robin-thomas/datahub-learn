@@ -1,12 +1,4 @@
----
-description: >-
-  We will learn how to use Truffle and ContractKit to deploy smart contracts to
-  Celo.
----
-
-# Deploying smart contracts on Celo with Truffle
-
-## Introduction
+# Introduction
 
 How would you go about deploying an existing Solidity smart contract on the Celo network? One answer is that you could do it with the help of Truffle -- a development environment that is designed to make deploying smart contracts much easier.
 

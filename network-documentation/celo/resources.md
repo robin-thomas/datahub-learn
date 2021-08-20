@@ -1,4 +1,4 @@
-# 👀 Resources
+# 👀 Celo Resources
 
 ## Beginner
 

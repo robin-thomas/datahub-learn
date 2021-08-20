@@ -1,10 +1,4 @@
----
-description: Learn how to transfer AVAX between chains
----
-
-# Transfer AVAX between the X-Chain and P-Chain
-
-\*\*\*\*[**The original tutorial can be found in the AVA Labs documentation here**](https://docs.avax.network/build/tutorials/platform/transfer-avax-between-x-chain-and-p-chain). 
+[**The original tutorial can be found in the AVA Labs documentation here**](https://docs.avax.network/build/tutorials/platform/transfer-avax-between-x-chain-and-p-chain). 
 
 ## Introduction
 

@@ -1,10 +1,4 @@
----
-description: Learn how to interact with Avalanche using DataHub
----
-
-# 🏔 Avalanche
-
-## Welcome to the Avalanche documentation!
+# Welcome to the Avalanche documentation!
 
 In this section, you will be able to learn about what makes Avalanche special and how you can leverage available tools to build amazing products! 
 
