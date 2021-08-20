@@ -8,17 +8,17 @@ description: Learn what makes Tezos unique and build your first Tezos smart cont
 
 Tezos is an open-source platform for assets and applications that can evolve by upgrading itself. Stakeholders govern upgrades to the core protocol, including upgrades to the amendment process itself. ****It benefits from three main characteristics: self-amendment, on-chain governance, and decentralized innovation. ****
 
-## **🏁** Get started by signing up for DataHub <a id="get-started-by-signing-up-for-datahub"></a>
+## **🏁** Get started by signing up for DataHub 
 
 Once you are ready, get started by [**setting up an account on DataHub**](https://datahub.figment.io/sign_up?service=tezos) to put your skills to the test and follow-along the tutorials to start building on Tezos. 
 
 [**Learn more about DataHub**](https://learn.figment.io/guides/datahub-products)**.** 
 
-\*\*\*\*[**Make sure to read our Terms of Use before starting**](https://learn.datahub.figment.io/terms-of-use)**.** 
+[**Make sure to read our Terms of Use before starting**](https://learn.datahub.figment.io/terms-of-use).
 
-##  ![](../../.gitbook/assets/2011%20%282%29%20%283%29%20%281%29.png) **Tezos** Pathway Tutorials <a id="avalanche-pathway-tutorials"></a>
+##  ![](../../.gitbook/assets/2011%20%282%29%20%283%29%20%281%29.png) **Tezos** Pathway Tutorials
 
-### ​ ![](../../.gitbook/assets/vhhp1wl4_400x400-1-.jpg) [Get started by signing up to DataHub](https://datahub.figment.io/sign_up?service=tezos)! <a id="get-started-by-signing-up-to-datahub"></a>
+### ​ ![](../../.gitbook/assets/vhhp1wl4_400x400-1-.jpg) [Get started by signing up to DataHub](https://datahub.figment.io/sign_up?service=tezos)! 
 
 ### 💡 1. Connect to a Tezos node using DataHub
 
@@ -40,5 +40,4 @@ Once you are ready, get started by [**setting up an account on DataHub**](https:
 
 {% page-ref page="tutorials/intro-pathway-tezos-basics/5.-working-with-ligo-smart-contracts-on-tezos.md" %}
 
-#### [Join our community today](https://discord.gg/PtkKz5) if you want to interact with other Tezos builders and become a part of this growing ecosystem! <a id="join-our-community-today-if-you-want-to-interact-with-other-celo-builders-and-become-a-part-of-this-growing-ecosystem"></a>
-
+[Join our community today](https://discord.gg/PtkKz5) if you want to interact with other Tezos builders and become a part of this growing ecosystem! 

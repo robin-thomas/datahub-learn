@@ -1,4 +1,10 @@
-# **What is Celo?**
+---
+description: Learn how Celo works and what makes it special
+---
+
+# ✏ Celo 101
+
+## **What is Celo?**
 
 Celo is a smart contract blockchain network. The technology uses a phone-number-based identity system with address-based encryption and eigentrust-based reputation. Their first application is a social payments system that can be used on a smartphone.
 

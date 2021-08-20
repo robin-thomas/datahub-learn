@@ -1,4 +1,10 @@
-# **What is Avalanche?**
+---
+description: Learn how Avalanche works and what makes it special
+---
+
+# ✏ Avalanche 101
+
+## **What is Avalanche?**
 
 Avalanche is a layer one protocol by Ava Labs that offers high-throughput, fast finality, and unprecedented decentralization. Developers are able to launch their own public or private blockchains \(called subnets\), create and trade digital assets, and build scalable smart contracts and decentralized applications.
 

@@ -1,4 +1,10 @@
-# Time to learn
+---
+description: See all tutorials currently available for Celo
+---
+
+# 💡 Tutorials
+
+## Time to learn
 
 On this page you can find all tutorials currently available for Celo, including all tutorials created by the community.
 

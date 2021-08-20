@@ -1,9 +1,9 @@
 [**The original tutorial can be found on Polygon \(Matic\)'s official documentation here.**](https://docs.matic.network/docs/develop/full-stack-dapp-with-pos)
-## Introduction
+# Introduction
 
 This tutorial is a brief introduction to Full Stack DApp deployed on Polygon \(Matic\) with Proof of Stake Security. As a DApp developer, to build on PoS security, the procedure is as simple as taking your smart contract and deploying it on Polygon \(Matic\). This is possible because of the account**-**based architecture enabling an EVM-compatible sidechain.
 
-### Prerequisites
+# Prerequisites
 
 - Node 8.10+
 
@@ -20,7 +20,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | 
 
 - Metamask: You can download the Metamask extension from the official website: [https://metamask.io/](https://metamask.io/)
 
-## What are we building?
+# What are we building?
 
 We plan to build a Decentralized Airbnb that incorporates three main functionalities:
 
@@ -30,9 +30,9 @@ We plan to build a Decentralized Airbnb that incorporates three main functionali
 
 Go ahead and clone the [repository](https://github.com/maticnetwork/ethindia-workshop) and install dependencies and then run `npm install`
 
-## Setup
+# Setup
 
-### Setting up Data Structures
+## Setting up Data Structures
 
 We’d like a property with a name, description, owner and a price to be rented.
 
@@ -180,7 +180,7 @@ You can view the entire code [here](https://github.com/maticnetwork/ethindia-wor
 
 Once you have the contract code ready, next steps would be to deploy the code on a testnet and test its working.
 
-## Deploy and Test
+# Deploy and Test
 
 For this, we use the Remix IDE - an online IDE to develop smart contracts.
 
