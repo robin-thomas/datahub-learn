@@ -1,10 +1,4 @@
----
-description: Learn how to re-deploy Ethereum Dapps on the Celo network
----
-
-# How to re-deploy your Ethereum DApp to Celo
-
-## Introduction
+# Introduction
 
 This tutorial is designed for developers who have deployed dapps on ethereum before and now want to learn how to do the same with the Celo blockchain.
 
@@ -12,11 +6,11 @@ One of the biggest advantages of using Celo is that it is EVM compatible which m
 
 We will be redeploying the famous `PET SHOP` dapp. Complete walkthrough of pet shop tutorial is outside the scope of this tutorial, but you can find it [here](https://www.trufflesuite.com/tutorials/pet-shop). The current tutorial is not limited to just this example and can be used as a guide to redeploy any other ethereum project to celo.
 
-## Getting Started
+# Getting Started
 
 Start by cloning the following repository
 
-```javascript
+```
 git clone https://github.com/trufflesuite/pet-shop-tutorial
 ```
 
@@ -24,17 +18,17 @@ After cloning the repository, we have all the contracts required to deploy **Pet
 
 Let's install all the dependencies of the dapp by using
 
-```javascript
+```
 npm install
 ```
 
 Now we have all the tools to start on your journey.
 
-## USING CELO CLI
+# Using the Celo CLI
 
 First, we need to find a way to interact with Celo blockchain. For this tutorial, we will be using `Celo CLI` to do the same.
 
-```javascript
+```
  npm install -g @celo/celocli
 ```
 
@@ -42,7 +36,7 @@ CeloCLI makes it extremely easy to interact with Celo Blockchain. It is a very h
 
 After installing it, we need to make sure it is pointing to the correct endpoint. Let's check that by
 
-```javascript
+```
  celocli config:get
 ```
 
@@ -52,13 +46,13 @@ Our node should be pointing to **node:** [https://alfajores-forno.celo-testnet.o
 
 In case your endpoint is something else, you can change it by using
 
-```javascript
+```
  celocli config:set --node https://alfajores-forno.celo-testnet.org
 ```
 
 Now our celocli is connected to `Alfajores Testnet`. We need an account to work with. Let's use celocli for this. Use the following command to get a new account on testnet.
 
-```javascript
+```
  celocli account:new
 ```
 
@@ -74,13 +68,13 @@ We will use this private key later on in this tutorial. Now that we have an acco
 
 ![](https://imgur.com/RFWBgTr.png)
 
-## Changing Truffle-config
+# Changing truffle-config.js
 
-To deploy our dapp to the Celo blockchain, all we need to do now is to change the `truffle-config.js` so that it can work with Celo blockchain. We will be taking help of `Contract Kit` and `Wallet-local` made by Celo. We also need to install `dotenv` to use our Private Key.
+To deploy our dapp to the Celo blockchain, all we need to do now is to change the `truffle-config.js` so that it can work with Celo blockchain. We will be taking help of `ContractKit` and `Wallet-local` made by Celo. We also need to install `dotenv` to use our Private Key.
 
 To install all of these, use
 
-```javascript
+```
  npm i --save @celo/contractkit @celo/wallet-local dotenv
 ```
 
@@ -122,17 +116,17 @@ Now our configuration file is all set to work with the Celo Blockchain.
 
 Let's compile our smart contracts using
 
-```javascript
+```
 Truffle compile
 ```
 
 and after compiling is completed, let's migrate our smart contracts to Celo.
 
-```javascript
+```
 Truffle migrate --network testnet
 ```
 
-Congratulations! With that, we have deployed our Ethereum Dapp to Celo. It was a big tutorial but we made it through.
+Congratulations! With that, we have deployed our Ethereum DApp to Celo.
 
-Now we can use the same process to deploy any Dapp we want to Celo. Don't let anything stop you, try cloning any project on ethereum and deploy it on Celo. Celo has wonderful opportunities for new projects, Join our [Discord](https://discord.gg/7HGzGQvW) to discuss more.
+Now we can use the same process to deploy any DApp we want to Celo. Don't let anything stop you, try cloning any project on ethereum and deploy it on Celo. Celo has wonderful opportunities for new projects. Join our community [Discord](https://discord.gg/7HGzGQvW) to discuss more.
 

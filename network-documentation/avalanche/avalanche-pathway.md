@@ -12,9 +12,9 @@ Once you are ready, get started by [**setting up an account on DataHub**](https:
 
 [**Learn more about DataHub**](https://learn.figment.io/guides/datahub-products)**.** 
 
-\*\*\*\*[**Make sure to read our Terms of Use before starting**](https://learn.datahub.figment.io/terms-of-use)**.** 
+[**Make sure to read our Terms of Use before starting**](https://learn.datahub.figment.io/terms-of-use)**.** 
 
-## \*\*\*\*![](../../.gitbook/assets/avalanche_token_round-300x300.png) **Avalanche** Pathway Tutorials
+## ![](../../.gitbook/assets/avalanche_token_round-300x300.png) **Avalanche** Pathway Tutorials
 
 ### ![](../../.gitbook/assets/vhhp1wl4_400x400-1-.jpg) [Get started by signing up to DataHub](https://datahub.figment.io/sign_up?service=avalanche)! 
 
@@ -38,7 +38,4 @@ Once you are ready, get started by [**setting up an account on DataHub**](https:
 
 {% page-ref page="tutorials/pathway/5.-cross-chain-token-transfers.md" %}
 
-
-
-#### ​[Join our community today](https://discord.gg/PtkKz5) if you want to interact with other Avalanche builders and become a part of this growing ecosystem! <a id="join-our-community-today-if-you-want-to-interact-with-other-celo-builders-and-become-a-part-of-this-growing-ecosystem"></a>
-
+## ​[Join our community today](https://discord.gg/PtkKz5) if you want to interact with other Avalanche builders and become a part of this growing ecosystem!

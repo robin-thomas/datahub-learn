@@ -1,9 +1,3 @@
----
-description: Learn how to acquire testnet MATIC
----
-
-# Fund a Polygon account
-
 ## Getting MATIC
 
 Next we will acquire some free MATIC on the testnet so we can deploy a smart contract and interact with it! Before dealing with actual value on the Polygon mainnet, it is wise to practice using the Polygon testnet \(called Mumbai\).

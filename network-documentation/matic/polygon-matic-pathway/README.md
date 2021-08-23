@@ -1,10 +1,4 @@
----
-description: Learn how to use Polygon (Matic)
----
-
-# 🗺 Polygon \(Matic\) Pathway
-
-## What is Polygon?
+# What is Polygon?
 
 "_Polygon is a protocol and a framework for building and connecting Ethereum compatible blockchain networks. Aggregating scalable solutions on Ethereum, supporting a multi-chain Ethereum ecosystem._"
 
@@ -24,7 +18,7 @@ There are a few important sites that will be of interest to users of Polygon \(M
 * [https://docs.matic.network](https://docs.matic.network/) for knowledge!
 * [https://faucet.matic.network](https://faucet.matic.network/) for free testnet assets.
 
-### Heimdall & Bor
+## Heimdall & Bor
 
 For Polygon, the node is designed with a two layer implementation with Heimdall \(the Validator layer\) & Bor \(the Block Producer layer\) :
 
@@ -33,7 +27,7 @@ For Polygon, the node is designed with a two layer implementation with Heimdall 
 * **Bor** is compatible with the Ethereum Virtual Machine \(EVM\), it is a fork of the [Geth client](https://geth.ethereum.org/docs/) with customized consensus algorithms. User interaction on Polygon takes place on this chain, it also makes available the functionality and compatibility of Ethereum developer tooling and applications.  Read more about the [core concepts](https://docs.matic.network/docs/contribute/bor/core_concepts) of Bor.
   * On DataHub, the JSON-RPC endpoint is used to access Bor.
 
-### Bridging Polygon & Ethereum
+## Bridging Polygon & Ethereum
 
 Polygon's Validators continuously monitor a contract on Ethereum's mainnet called _**StateSender**_. Each time a registered contract on Ethereum calls this contract, it emits an event. Using this event, Polygon validators relay the data to another contract on the Polygon chain. This _**StateSync**_ mechanism is used to send data from Ethereum to Polygon.
 
@@ -43,7 +37,7 @@ It is possible to process many transactions on Polygon and use relatively little
 
 In summary, Polygon is an attractive solution for developers who wish to keep much of the tooling and community of Ethereum, while leveraging the best scaling for their decentralized applications.
 
-## Requirements
+# Requirements
 
 * [Node.js](https://nodejs.org) v14+ installed \(we recommend using [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm)\)
 * [yarn](https://yarnpkg.com/) installed
@@ -59,13 +53,13 @@ If you **DO NOT** already have Metamask installed, welcome to the wonderful worl
 The first piece of advice we will give you is to make _absolutely sure that you write down the_ [_Secret Recovery Phrase_](https://community.metamask.io/t/what-is-a-secret-recovery-phrase-and-how-to-keep-your-crypto-wallet-secure/3440) that is generated during Metamask's initial setup. Do not store it in a digital format. Do not share it with anybody. Please do keep it accessible to yourself, because we will be using it during the pathway. 
 {% endhint %}
 
-## Prerequisites
+# Prerequisites
 
 * Readers are assumed to have a working knowledge of JavaScript/TypeScript.
   * [Eloquent Javascript](https://eloquentjavascript.net) is a very good starting point to learn the JavaScript language.
   * The [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) has a great [introduction](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html) for new programmers as well.
 
-## Project Setup
+# Project Setup
 
 The Polygon Pathway is in the form of a Next.js app which can be run on your local machine. We will be interacting with it through the web browser, and making changes to the code to make it a basic dApp, using Polygon!
 

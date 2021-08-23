@@ -1,10 +1,8 @@
-# ✏ Parachain Lifecycle
-
-## **Introduction**
+## Introduction
 
 This guide will focus on the lifecycle of Polkadot's parachains, an integral part of the Polkadot ecosystem. An end-user or developer will learn how parachains will operate, and ways they can participate in the parachain lifecycle - from backing a parachain candidate to considerations for developing a parachain and what to expect when it's time to deploy.
 
-## **Prerequisites**
+## Prerequisites
 
 It is recommended that you are have gone through the [Polkadot Blockchain Terms](https://learn.figment.io/network-documentation/polkadot/polkadot-blockchain-terms) guide and are familiar with the following:
 
@@ -13,7 +11,7 @@ It is recommended that you are have gone through the [Polkadot Blockchain Terms]
 * [Getting Started with Polkadot](https://wiki.polkadot.network/docs/en/getting-started).
 * Are comfortable with blockchain computing & networking terminology.
 
-## **Parachain Lifecycle**
+## Parachain Lifecycle
 
 ### Summary of Parachains
 
@@ -41,11 +39,11 @@ Taking the case for one parachain:
 * If all is well, the validator will share the candidate block with the relay chain.
 * Parachain block candidates are collected together and a relay chain block candidate is produced. \[3\]
 
-\*\*\*\*![](../../.gitbook/assets/polkadot-consensus-example-1.png)\*\*\*\*
+![](../../.gitbook/assets/polkadot-consensus-example-1.png)
 
 * Then the validators on the network will try to reach a consensus on the relay chain block candidate. Upon reaching consensus, the now validated relay chain block candidate is shared with the validators and collators, and the process repeats for new transactions. \[3\]
 
-\*\*\*\*![](../../.gitbook/assets/polkadot-consensus-example-2.png)\*\*\*\*
+![](../../.gitbook/assets/polkadot-consensus-example-2.png)
 
 ### Parachain Slot Auction
 
@@ -108,11 +106,11 @@ The parachain team does not have any control over the contributed funds: all tok
      relatively the same as its cousin, Polkadot.
   ```
 
-  \*\*\*\*![](../../../.gitbook/assets/kusama.png)\*\*\*\*
+  ![](../../../.gitbook/assets/kusama.png)
 
 * The candidate parachain can consider transforming their parachain into a parathread and use the pay-as-you-go model. The parathread model has a fixed registration fee. This registration fee _only registers_ the parathread's source code onto the relay chain. The parathread is required to pay a fee to participate in a per-block auction for inclusion in the verification of the next Relay Chain block \[2\].
 
-  \*\*\*\*![](../../../.gitbook/assets/parathread-parachain-diff.png)\*\*\*\*
+  ![](../../../.gitbook/assets/parathread-parachain-diff.png)
 
   _**Parachain registration does not grant the right to the parathread as the parathreads are competing on a per-block basis.**_
 
@@ -124,17 +122,17 @@ The parachain team does not have any control over the contributed funds: all tok
   * If the candidate parachain focusses on a specific use-case such as identity management. 
   * The network you would like to deploy has limited traffic and does not need full throughput.
 
-    \*\*\*\*![](../../../.gitbook/assets/parathreads-pay-as-you-go.png)\*\*\*\*
+    ![](../../../.gitbook/assets/parathreads-pay-as-you-go.png)
 
 * Parachain candidates can also attempt to deploy their application on an existing parachain via smart contracts.
 * Parachain candidates can connect to Polkadot via [bridging](https://wiki.polkadot.network/docs/en/learn-bridges) as a solo-chain.
 
-## **Conclusion**
+## Conclusion
 
 Congratulations! This guide offered a friendly overview of the lifecycle of a parachain.  
 After reading the guide, an end-user or developer should be familiar with how parachains will operate on Polkadot, and the different ways that they can participate in the parachain lifecycle.
 
-## **What's next?**
+## What's next?
 
 More information about the breakdown of Polkadot parachain slots and the Parachain lifecycle is available at:
 
@@ -143,13 +141,13 @@ More information about the breakdown of Polkadot parachain slots and the Paracha
 
 Consider using Substrate to create your own parachain!
 
-## **About the Author**
+## About the Author
 
 This guide was created by Danny Salman. You can reach out to Danny on [Figment Forum](https://community.figment.io/u/salman.danny03/) & on GitHub for help or if you have questions pertaining to Polkadot and this guide.
 
-## **References**
+## References
 
-\[1\] ****[Crust Network \| Explaining the Polkadot Parachain Slot Auction Mechanism](https://medium.com/crustnetwork/crust-network-explaining-the-polkadot-parachain-slot-auction-mechanism-533381d42607#:~:text=Rules%20of%20the%20Polkadot%20Parachain%20Slot%20Auction&text=Each%20slot%20is%20divided%20into,periods%20according%20to%20their%20needs.)  
+\[1\] [Crust Network \| Explaining the Polkadot Parachain Slot Auction Mechanism](https://medium.com/crustnetwork/crust-network-explaining-the-polkadot-parachain-slot-auction-mechanism-533381d42607#:~:text=Rules%20of%20the%20Polkadot%20Parachain%20Slot%20Auction&text=Each%20slot%20is%20divided%20into,periods%20according%20to%20their%20needs.)  
 \[2\] [Parathreads: Pay-as-you-go Parachains](https://polkadot.network/parathreads-parathreads-pay-as-you-go-parachains/)  
 \[3\] [Polkadot — An Early In-Depth Analysis — Part Two — How Consensus Works](https://cryptoseq.medium.com/polkadot-an-early-in-depth-analysis-part-two-how-consensus-works-1b2b2f3a2245)  
 \[4\] [Polkadot & Kusama Crowdloans and Parachain Auctions — Simplified](https://danreecer.medium.com/polkadot-kusama-crowdloans-and-parachain-auctions-simplified-da89a05cd566)

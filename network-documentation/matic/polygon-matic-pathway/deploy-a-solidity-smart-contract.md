@@ -1,9 +1,3 @@
----
-description: 'Learn how to write, test and deploy Solidity on Polygon using Truffle'
----
-
-# Deploy a Solidity smart contract
-
 Solidity is a high level language. It is partly designed after ECMAScript and therefore it is said to be **similar to JavaScript**. But the similarity ends there. It gets compiled \(not interpreted\) and usually deployed on Blockchains that understand the Ethereum Virtual Machine \(EVM\), like Polygon! When a smart contract is deployed, it becomes immutable. This has both benefits and drawbacks, which we will discuss below.
 
 We can use [HardHat](https://hardhat.org) or [Truffle](https://trufflesuite.com) to ease development and deployment of our Solidity code. The [Remix IDE](https://remix.ethereum.org) is also a popular choice for contract development and deployment. There are several existing guides for other EVM compatible networks available on Figment Learn \(check out the tutorials for [Celo and Truffle](https://learn.figment.io/network-documentation/celo/tutorial/deploying-smart-contracts-on-celo-with-truffle), or [Celo and HardHat](https://learn.figment.io/network-documentation/celo/tutorial/celo-hardhat-deploy-and-nft-app) for example\). Both HardHat and Truffle are capable of running local development blockchains. We will focus on using Truffle in this tutorial.
