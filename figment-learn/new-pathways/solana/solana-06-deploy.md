@@ -153,8 +153,6 @@ solana config get
 solana account $(solana-keygen pubkey solana-wallet/keypair.json)
 ```
 
-![](../../../.gitbook/assets/solana-deploy-01-v3.gif)
-
 -----------------------------------------
 # Deploy a Solana program
 
@@ -209,9 +207,6 @@ Default Signer Path: solana-wallet/keypair.json
 Commitment: confirmed
 Program Id: 7KwpCaaYXRsjfCTvf85eCVuZDW894zZNN38UMxMpQoaQ
 ```
-
-![](../../../.gitbook/assets/solana-deploy-02-v3.gif)
-
 
 -----------------------------------------
 
