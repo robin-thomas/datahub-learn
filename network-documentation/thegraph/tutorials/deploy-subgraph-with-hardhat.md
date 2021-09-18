@@ -299,7 +299,7 @@ graph auth --studio <DEPLOY_KEY>
 Deploy key set for https://api.studio.thegraph.com/deploy/
 ```
 
-To create the subgraph, run the following command. Your new subgraph will be created in a subgraph.yaml file.
+To create the subgraph, run the following command. Your new subgraph will be created in a `subgraph.yaml` file.
 
 ```text
 cd vending
@@ -308,7 +308,7 @@ graph codegen && graph build
 
 This will generate a build directory under `vending/build`.
 
-Output:
+**Output:**
 
 ```text
 Skip migration: Bump mapping apiVersion from 0.0.1 to 0.0.2
@@ -355,10 +355,10 @@ graph deploy --studio vending
 
 You shall be prompted for a version label. You can choose `1.0.0`.
 
-Output:
+**Output:**
 
 ```text
-✔ Version Label (e.g. v0.0.1) · v1.0.1
+✔ Version Label (e.g. v0.0.1) · v1.0.0
   Skip migration: Bump mapping apiVersion from 0.0.1 to 0.0.2
   Skip migration: Bump mapping apiVersion from 0.0.2 to 0.0.3
   Skip migration: Bump mapping apiVersion from 0.0.3 to 0.0.4
@@ -384,8 +384,8 @@ Build completed: QmZMbjNuaEm1KvAhVaqE29Hz4EJfdNcDwtHgmGifWNrutV
 Deployed to https://thegraph.com/studio/subgraph/vending
 
 Subgraph endpoints:
-Queries (HTTP):     https://api.studio.thegraph.com/query/8676/vending/v1.0.1
-Subscriptions (WS): https://api.studio.thegraph.com/query/8676/vending/v1.0.1
+Queries (HTTP):     https://api.studio.thegraph.com/query/8676/vending/v1.0.0
+Subscriptions (WS): https://api.studio.thegraph.com/query/8676/vending/v1.0.0
 ```
 
 Subgraph Studio might take few minutes to sync the graph from the Rinkeby testnet. Wait until the syncing process is complete.
